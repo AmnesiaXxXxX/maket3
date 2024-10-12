@@ -57,7 +57,18 @@ function App() {
           </div>
         </section>
       </section>
-      
+      <section id="hamburger">
+      <div id="hamburger_content">
+        <h1 id='ur_talent'>You’ve got the talent.</h1>
+        <h1 id='we_tools'>We’ve got the tools</h1>
+        <div id='buttons'>
+          <a href="" id="button1">Storefront</a>
+          <a href="" id="button2">Plan Better</a>
+          <a href="" id="button3">Collaborate</a>
+          <a href="" id="button4">Get Paid</a>
+        </div>
+      </div>
+      </section>
     </div>
   );
 }

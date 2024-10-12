@@ -530,3 +530,173 @@ a {
 
   padding-left: calc(35px);
 }
+
+#hamburger {
+  margin-top: 10px;
+}
+
+#ur_talent {
+  /* You’ve got the talent. */
+
+  position: absolute;
+  width: 382px;
+  height: 46px;
+  left: 449px;
+  top: 3134px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  letter-spacing: 0.6px;
+
+  color: #1B1C1D;
+
+
+}
+
+#we_tools {
+  /* We’ve got the tools */
+
+  position: absolute;
+  width: 346px;
+  height: 46px;
+  left: 467px;
+  top: 3180px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  letter-spacing: 0.6px;
+
+  color: #1B1C1D;
+
+
+}
+
+
+#buttons a{
+  text-align: center;
+  padding: 0.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+#button1 {
+
+  position: absolute;
+  width: 84px;
+  height: 18px;
+  left: 369px;
+  top: 3258px;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  left: 341px;
+  top: 3248px;
+  border: 3px solid #1B1C1D;
+  border-radius: 4px;
+
+
+}
+
+#button2 {
+
+  /* Plan Better */
+
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 521px;
+  top: 3258px;
+
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 146px;
+  height: 38px;
+  left: 493px;
+  top: 3248px;
+
+  border: 3px solid #1B1C1D;
+  border-radius: 4px;
+
+
+  color: #1B1C1D;
+}
+
+#button3 {
+  /* Rectangle */
+
+
+  position: absolute;
+  width: 151px;
+  height: 38px;
+  left: 650px;
+  top: 3248px;
+
+  border: 3px solid #1B1C1D;
+  border-radius: 4px;
+
+
+  /* Collaborate */
+
+  position: absolute;
+  width: 95px;
+  height: 18px;
+
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  letter-spacing: 0.5px;
+
+  color: #1B1C1D;
+
+
+}
+
+#button4 {
+  /* Rectangle */
+
+
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: 813px;
+  top: 3248px;
+
+  border: 3px solid #1B1C1D;
+  border-radius: 4px;
+
+
+  /* Get Paid */
+
+  position: absolute;
+  width: 71px;
+  height: 18px;
+
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  /* identical to box height, or 106% */
+  letter-spacing: 0.5px;
+
+  color: #1B1C1D;
+
+
+}
