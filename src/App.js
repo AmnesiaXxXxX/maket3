@@ -28,6 +28,28 @@ function App() {
         </div>
         <div className="rest">
           <h1 id='for_all_creators'>For all creators</h1>
+          <p id='podcasters'>Podcasters</p>
+          <p id='youtubers'>Youtubers</p>
+          <p id='newsletter_writers'>Newsletter Writers</p>
+          <p id='media_companies'>Media companies</p>
+          <p id='tiktokers'>TikTokers</p>
+          <p id='influencers'>Influencers</p>
+          
+        </div>
+        <div id='about_us'>
+          <div className="panel" id="panel1">
+            <div id="panel1_content">
+              <h2>Is running the show running you down, too?</h2>
+              <li id="panel1_list_element1">You waste 70% of time on admin work</li>
+              <li id="panel1_list_element2">Juggling 10+ tools to handle requests and payments</li>
+              <li id="panel1_list_element3">Losing track, details and your spark due to constant back and forth</li>
+            </div>
+            
+            <img id='panel1_img' src='panel1_img.png'></img>
+          </div>
+          <div className="panel" id="panel2">
+
+          </div>
         </div>
     </div>
   );
