@@ -1,3 +1,4 @@
+/* Общие стили */
 * {
   margin: 0px;
   padding: 0px;
@@ -9,293 +10,558 @@ a {
   color: #222222;
 }
 
-.main__header {
-  /* Rectangle */
-  
+/* Стили для хедера */
+.header {
   position: absolute;
   width: 1280px;
   height: 76px;
   left: 0px;
   top: 0px;
-
   background: #F5F3EA;
   border-radius: 0px;
-
 }
 
-#about_us_button {
-
+.header__nav-button {
   position: absolute;
-  width: 67px;
   height: 24px;
-  left: 691px;
   top: 25px;
-
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.40px;
   line-height: 24px;
-
   color: #222222;
 }
 
-#careers_button {
-  /* Careers */
+.header__nav-button:nth-child(1) {
+  width: 67px;
+  left: 691px;
+}
 
-  position: absolute;
+.header__nav-button:nth-child(2) {
   width: 59px;
-  height: 24px;
   left: 793px;
-  top: 25px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
-  color: #222222;
-
-
 }
 
-#resourses_button {
-  /* Resources */
-
-  position: absolute;
+.header__nav-button:nth-child(3) {
   width: 78px;
-  height: 24px;
   left: 886px;
-  top: 26px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
-  color: #222222;
-
-
 }
 
-#login_button {
-  /* Login */
-
-  position: absolute;
+.header__nav-button:nth-child(4) {
   width: 41px;
-  height: 24px;
   left: 1021px;
-  top: 25px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
-  color: #222222;
-
-
 }
 
-#get_access_button {
-  /* Get access */
-
-  position: absolute;
-  width: 88px;
-  height: 24px;
-  left: 1124px;
-  top: 25px;
-  padding: 0.5%;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  text-align: center;
-  
-  color: #000000;
-
-
-  /* Rectangle */
-
-  box-sizing: border-box;
-
+.header__nav-button--access {
   position: absolute;
   width: 144px;
   height: 44px;
   left: 1096px;
   top: 16px;
-
-  background: #F5F3EA;
-  border: 2px solid #000000;
-  box-shadow: 2px 2px 0px #1B1C1D;
-  border-radius: 6px;
-
-
-}
-#img1 {
-  position: absolute;
-  width: 270px;
-  height: 180px;
-  left: 50px;
-  top: 116px;
-  object-fit: cover; /* Убедимся, что изображение масштабируется правильно */
-  border-radius: 0px;
-}
-
-#img2 {
-  position: absolute;
-  width: 152px;
-  height: 93px;
-  left: 906px;
-  top: 164px;
-  object-fit: cover; /* Убедимся, что изображение масштабируется правильно */
-  border-radius: 0px;
-
-}
-
-#img3 {
-  position: absolute;
-  width: 208px;
-  height: 145px;
-  left: 93px;
-  top: 411px;
-
-  border-radius: 0px;
-
-}
-#img4 {
-  position: absolute;
-  width: 206px;
-  height: 191px;
-  left: 991px;
-  top: 517px;
-  object-fit: cover; /* Убедимся, что изображение масштабируется правильно */
-  border-radius: 0px;
-
-
-}
-
-#where_creators {
-/* Where creators */
-
-  position: absolute;
-  width: 691px;
-  height: 101px;
-  left: 294px;
-  top: 308px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 101px;
-  /* identical to box height, or 105% */
-  text-align: center;
-  letter-spacing: 1.14px;
-
-  color: #1B1C1D;
-
-}
-#do_business{
-
-  position: absolute;
-  width: 529px;
-  height: 101px;
-  left: 375px;
-  top: 408px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 101px;
-  text-align: center;
-  letter-spacing: 1.14px;
-
-  color: #1B1C1D;
-}
-
-.thumb #content {
-  /* Passionfroot lets you handle sponsorships, collaboration requests, bookings, and payments – in one single place. Stop feeling overwhelmed by the opportunities. Start seizing them. */
-
-  position: absolute;
-  width: 608px;
-  height: 93px;
-  left: 336px;
-  top: 542px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 31px;
-  /* or 155% */
-  text-align: center;
-
-  color: #1B1C1D;
-
-
-}
-
-.thumb #get_access_button {
-  /* Text */
-
-  position: absolute;
-  width: 88px;
-  height: 24px;
-  left: 597px;
-  top: 667px;
   padding: 0.5%;
-
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-
-  color: #1B1C1D;
-
-  /* Border */
-
+  color: #000000;
   box-sizing: border-box;
+  background: #F5F3EA;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #1B1C1D;
+  border-radius: 6px;
+}
 
+/* Стили для секции thumb */
+.thumb__img.thumb__img--large {
+  position: absolute;
+  width: 270px;
+  height: 180px;
+  left: 50px;
+  top: 116px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.thumb__img.thumb__img--small {
+  position: absolute;
+  width: 152px;
+  height: 93px;
+  left: 906px;
+  top: 164px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.thumb__img.thumb__img--medium {
+  position: absolute;
+  width: 208px;
+  height: 145px;
+  left: 93px;
+  top: 411px;
+  border-radius: 0px;
+}
+
+.thumb__img.thumb__img--large:last-of-type {
+  position: absolute;
+  width: 206px;
+  height: 191px;
+  left: 991px;
+  top: 517px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.thumb__title.thumb__title--where {
+  position: absolute;
+  width: 691px;
+  height: 101px;
+  left: 294px;
+  top: 308px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  text-align: center;
+  letter-spacing: 1.14px;
+  color: #1B1C1D;
+}
+
+.thumb__title.thumb__title--business {
+  position: absolute;
+  width: 529px;
+  height: 101px;
+  left: 375px;
+  top: 408px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  text-align: center;
+  letter-spacing: 1.14px;
+  color: #1B1C1D;
+}
+
+.thumb__content {
+  position: absolute;
+  width: 608px;
+  height: 93px;
+  left: 336px;
+  top: 542px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  color: #1B1C1D;
+}
+
+.thumb__access-button {
   position: absolute;
   width: 143px;
   height: 40px;
   left: 569px;
   top: 659px;
-
+  padding: 0.5%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1B1C1D;
+  box-sizing: border-box;
   background: #FF9966;
   border: 2px solid #1B1C1D;
   box-shadow: 2px 2px 0px #1B1C1D;
   border-radius: 6px;
 }
 
-.rest #for_all_creators {
-  /* For all creators */
-
+/* Стили для секции creators */
+.creators__title {
   position: absolute;
   width: 370px;
   height: 202px;
   left: 155px;
   top: 973px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
   line-height: 101px;
-  /* or 105% */
   text-align: center;
   letter-spacing: 0.96px;
+  color: #1B1C1D;
+}
+
+.creators__item {
+  position: absolute;
+  height: 65px;
+  left: 672px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #1B1C1D;
+}
+
+.creators__item:nth-child(1) {
+  width: 293px;
+  top: 884px;
+}
+
+.creators__item:nth-child(2) {
+  width: 274px;
+  top: 980px;
+}
+
+.creators__item:nth-child(3) {
+  width: 503px;
+  top: 1076px;
+}
+
+.creators__item:nth-child(4) {
+  width: 466px;
+  top: 1172px;
+}
+
+.creators__item:nth-child(5) {
+  width: 266px;
+  top: 1268px;
+}
+
+.creators__item:nth-child(6) {
+  width: 304px;
+  top: 1364px;
+}
+
+/* Стили для панелей */
+.panel--primary {
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  left: 0px;
+  top: 1522px;
+  background: #F5F3EA;
+  border-radius: 0px;
+}
+
+.panel--primary .panel__title {
+  margin-top: 248px;
+  margin-left: 40px;
+  margin-bottom: 29px;
+  width: 527px;
+  height: 92px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
+}
+
+.panel--primary .panel__list-item {
+  list-style: none;
+  background: url('list1-element.png') no-repeat left center;
+  background-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin-left: 40px;
+  padding-left: calc(35px);
+  color: #1B1C1D;
+  margin-bottom: 19px;
+}
+
+.panel--primary .panel__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.panel--primary .panel__img {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  right: 34px;
+  bottom: 65px;
+}
+
+.panel--secondary {
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  left: 0px;
+  top: 2324px;
+  background: #F5F3EA;
+  border-radius: 0px;
+}
+
+.panel--secondary .panel__title {
+  margin-top: 299px;
+  margin-left: 40px;
+  margin-bottom: -15px;
+  width: 527px;
+  height: 92px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
+}
+
+.panel--secondary .panel__list-item {
+  list-style: none;
+  background: url('list2-element.png') no-repeat left center;
+  background-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin-left: 40px;
+  padding-left: calc(35px);
+  color: #1B1C1D;
+  margin-bottom: 16px;
+}
+
+.panel--secondary .panel__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.panel--secondary .panel__img {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  right: 40px;
+  bottom: 104px;
+}
+
+/* Стили для секции hamburger */
+.hamburger {
+  margin-top: 10px;
+}
+
+.hamburger__title.hamburger__title--talent {
+  position: absolute;
+  width: 382px;
+  height: 46px;
+  left: 449px;
+  top: 3134px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
+}
+
+.hamburger__title.hamburger__title--tools {
+  position: absolute;
+  width: 346px;
+  height: 46px;
+  left: 467px;
+  top: 3180px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
+}
+
+.hamburger__buttons a {
+  padding-left: 28px;
+  padding-top: 10px;
+}
+
+.hamburger__button:nth-child(1) {
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  left: 341px;
+  top: 3248px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  border: 2px solid #1B1C1D;
+  border-radius: 4px;
+
+}
+
+.hamburger__button:nth-child(2) {
+  position: absolute;
+  width: 146px;
+  height: 38px;
+  left: 493px;
+  top: 3248px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  border: 2px solid #1B1C1D;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #1B1C1D;
+}
+
+.hamburger__button:nth-child(3) {
+  position: absolute;
+  width: 151px;
+  height: 38px;
+  left: 650px;
+  top: 3248px;
+  box-sizing: border-box;
+  border: 2px solid #1B1C1D;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #1B1C1D;
+}
+
+.hamburger__button:nth-child(4) {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: 813px;
+  top: 3248px;
+  box-sizing: border-box;
+  position: absolute;
+  border: 2px solid #1B1C1D;
+  border-radius: 4px;
+}
+
+/* Стили для секции two-panels */
+.two-panels__panel--one {
+  position: absolute;
+  width: 1200px;
+  height: 736px;
+  left: 40px;
+  top: 3332px;
+  background: #A8EBFF;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.two-panels__content {
+  width: 518px;
+  height: 46px;
+  left: 104px;
+  top: 3589px;
+  margin-top: 257px;
+  margin-left: 64px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
+}
+
+#two-panels__app_screenshot {
+  position: relative;
+  left: 699px;  
+  top: -280px;
+
+}
+
+.two-panels__panel--one .two-panels__title {
+  margin-bottom: 18px;
+}
+
+.two-panels__text {
+  width: 541px;
+  height: 93px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #1B1C1D;
+}
+
+.two-panels__button {
+  width: 196px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  box-sizing: border-box;
+  position: absolute;
+  width: 252px;
+  height: 30px;
+  background: #F5F3EA;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #1B1C1D;
+  border-radius: 6px;
+  margin-top: 32px;
+}
+
+.two-panels__panel--two {
+  position: absolute;
+  width: 1200px;
+  height: 819px;
+  left: 45px;
+  top: 4176px;
+  background: #66CCA0;
+  border-radius: 0px;
+
+}
+
+#two-panels__app_screenshot2 {
+  position: absolute;
+  right: 124px;
+  bottom: 100px;
+  height: 643px;
+  width: 392px;
+}
+
+.two-panels__panel--two .two-panels__title {
+
+  width: 557px;
+  height: 92px;
+  margin-top: 300px;
+  margin-bottom: 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
 
   color: #1B1C1D;
 
 
+}
+.two-panels__panel--two .two-panels__text {
+
+  width: 546px;
+  height: 93px;
+  left: 109px;
+  top: 4583px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  color: #1B1C1D;
+}
+
+.two-panels__panel--three {
+  
 }
