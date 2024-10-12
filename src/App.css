@@ -1,38 +1,301 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.main__header {
+  /* Rectangle */
+  
+  position: absolute;
+  width: 1280px;
+  height: 76px;
+  left: 0px;
+  top: 0px;
+
+  background: #F5F3EA;
+  border-radius: 0px;
+
+}
+
+#about_us_button {
+
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 691px;
+  top: 25px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.40px;
+  line-height: 24px;
+
+  color: #222222;
+}
+
+#careers_button {
+  /* Careers */
+
+  position: absolute;
+  width: 59px;
+  height: 24px;
+  left: 793px;
+  top: 25px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #222222;
+
+
+}
+
+#resourses_button {
+  /* Resources */
+
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  left: 886px;
+  top: 26px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #222222;
+
+
+}
+
+#login_button {
+  /* Login */
+
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  left: 1021px;
+  top: 25px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #222222;
+
+
+}
+
+#get_access_button {
+  /* Get access */
+
+  position: absolute;
+  width: 88px;
+  height: 24px;
+  left: 1124px;
+  top: 25px;
+  padding: 0.5%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
   text-align: center;
+  
+  color: #000000;
+
+
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 144px;
+  height: 44px;
+  left: 1096px;
+  top: 16px;
+
+  background: #F5F3EA;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #1B1C1D;
+  border-radius: 6px;
+
+
+}
+#img1 {
+  position: absolute;
+  width: 270px;
+  height: 180px;
+  left: 50px;
+  top: 116px;
+  object-fit: cover; /* Убедимся, что изображение масштабируется правильно */
+  border-radius: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#img2 {
+  position: absolute;
+  width: 152px;
+  height: 93px;
+  left: 906px;
+  top: 164px;
+  object-fit: cover; /* Убедимся, что изображение масштабируется правильно */
+  border-radius: 0px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#img3 {
+  position: absolute;
+  width: 208px;
+  height: 145px;
+  left: 93px;
+  top: 411px;
+
+  border-radius: 0px;
+
+}
+#img4 {
+  position: absolute;
+  width: 206px;
+  height: 191px;
+  left: 991px;
+  top: 517px;
+  object-fit: cover; /* Убедимся, что изображение масштабируется правильно */
+  border-radius: 0px;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#where_creators {
+/* Where creators */
+
+  position: absolute;
+  width: 691px;
+  height: 101px;
+  left: 294px;
+  top: 308px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  /* identical to box height, or 105% */
+  text-align: center;
+  letter-spacing: 1.14px;
+
+  color: #1B1C1D;
+
+}
+#do_business{
+
+  position: absolute;
+  width: 529px;
+  height: 101px;
+  left: 375px;
+  top: 408px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  text-align: center;
+  letter-spacing: 1.14px;
+
+  color: #1B1C1D;
 }
 
-.App-link {
-  color: #61dafb;
+.thumb #content {
+  /* Passionfroot lets you handle sponsorships, collaboration requests, bookings, and payments – in one single place. Stop feeling overwhelmed by the opportunities. Start seizing them. */
+
+  position: absolute;
+  width: 608px;
+  height: 93px;
+  left: 336px;
+  top: 542px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  /* or 155% */
+  text-align: center;
+
+  color: #1B1C1D;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thumb #get_access_button {
+  /* Text */
+
+  position: absolute;
+  width: 88px;
+  height: 24px;
+  left: 597px;
+  top: 667px;
+  padding: 0.5%;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #1B1C1D;
+
+  /* Border */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  left: 569px;
+  top: 659px;
+
+  background: #FF9966;
+  border: 2px solid #1B1C1D;
+  box-shadow: 2px 2px 0px #1B1C1D;
+  border-radius: 6px;
+}
+
+.rest #for_all_creators {
+  /* For all creators */
+
+  position: absolute;
+  width: 370px;
+  height: 202px;
+  left: 155px;
+  top: 973px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  /* or 105% */
+  text-align: center;
+  letter-spacing: 0.96px;
+
+  color: #1B1C1D;
+
+
 }
