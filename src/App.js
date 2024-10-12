@@ -76,14 +76,22 @@ function App() {
       </section>
       
       <section className='two-panels'>
-        <div className="two-panels__panel two-panels__panel--left">
+        <div className="two-panels__panel two-panels__panel--one">
           <div className="two-panels__content">
-            <h1 className="two-panels__title">A space for all your requests</h1>
+            <p className="two-panels__title">A space for all your requests</p>
+            <p className="two-panels__text">Drowning in DMs and emails? Ditch the mediakit and direct brands to one place with up-to-date stats. Offer sponsorships, collabs, ads, and more.</p>
+            <a className="two-panels__button">Check out our storefront</a>
           </div>
-          <img src="app_screenshot.png" alt="screenshot1" className="two-panels__img" />
+          <img id='two-panels__app_screenshot' src="app_screenshot1.png" width={362} height={684} alt="screenshot1" className="two-panels__img" />
         </div>
-        <div className="two-panels__panel two-panels__panel--right"></div>
-        <div className="two-panels__panel two-panels__panel--extra"></div>
+        <div className="two-panels__panel two-panels__panel--two">
+          <div className="two-panels__content">
+              <p className="two-panels__title">From requests to results in no time</p>
+              <p className="two-panels__text">Forget the back and forth. Go from first contact to final payment in days, not months. Collect assets, approvals and more in just a few clicks.</p>
+            </div>
+          <img id='two-panels__app_screenshot2' src="app_screenshot2.png" width={362} height={684} alt="screenshot1" className="two-panels__img" />
+        </div>
+        <div className="two-panels__panel two-panels__panel--three"></div>
       </section>
     </div>
   );

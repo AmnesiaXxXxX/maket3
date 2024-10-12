@@ -375,10 +375,8 @@ a {
 }
 
 .hamburger__buttons a {
-  text-align: center;
-  padding: 0.5%;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
+  padding-left: 28px;
+  padding-top: 10px;
 }
 
 .hamburger__button:nth-child(1) {
@@ -440,18 +438,13 @@ a {
   left: 813px;
   top: 3248px;
   box-sizing: border-box;
+  position: absolute;
   border: 2px solid #1B1C1D;
   border-radius: 4px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 18px;
-  letter-spacing: 0.5px;
-  color: #1B1C1D;
 }
 
 /* Стили для секции two-panels */
-.two-panels__panel--left {
+.two-panels__panel--one {
   position: absolute;
   width: 1200px;
   height: 736px;
@@ -462,11 +455,12 @@ a {
 }
 
 .two-panels__content {
-  position: absolute;
   width: 518px;
   height: 46px;
   left: 104px;
   top: 3589px;
+  margin-top: 257px;
+  margin-left: 64px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -474,4 +468,100 @@ a {
   line-height: 46px;
   letter-spacing: 0.6px;
   color: #1B1C1D;
+}
+
+#two-panels__app_screenshot {
+  position: relative;
+  left: 699px;  
+  top: -280px;
+
+}
+
+.two-panels__panel--one .two-panels__title {
+  margin-bottom: 18px;
+}
+
+.two-panels__text {
+  width: 541px;
+  height: 93px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #1B1C1D;
+}
+
+.two-panels__button {
+  width: 196px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  box-sizing: border-box;
+  position: absolute;
+  width: 252px;
+  height: 30px;
+  background: #F5F3EA;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #1B1C1D;
+  border-radius: 6px;
+  margin-top: 32px;
+}
+
+.two-panels__panel--two {
+  position: absolute;
+  width: 1200px;
+  height: 819px;
+  left: 45px;
+  top: 4176px;
+  background: #66CCA0;
+  border-radius: 0px;
+
+}
+
+#two-panels__app_screenshot2 {
+  position: absolute;
+  right: 124px;
+  bottom: 100px;
+  height: 643px;
+  width: 392px;
+}
+
+.two-panels__panel--two .two-panels__title {
+
+  width: 557px;
+  height: 92px;
+  margin-top: 300px;
+  margin-bottom: 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+
+  color: #1B1C1D;
+
+
+}
+.two-panels__panel--two .two-panels__text {
+
+
+  width: 546px;
+  height: 93px;
+  left: 109px;
+  top: 4583px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  color: #1B1C1D;
+
+
+
 }
