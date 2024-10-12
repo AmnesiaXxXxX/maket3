@@ -3,71 +3,87 @@ import './App.css';
 function App() {
   return (
     <div className="main">
-      <header className="main__header">
-        <nav className="main__header__nav">
-          <a id='about_us_button' href="#about_us">About us</a>
-          <a id='careers_button' href="#careers">Careers</a>
-          <a id='resourses_button' href="#resourses">Resourses</a>
-          <a id='login_button' href="#resourses">Login</a>
-          <a id='get_access_button' href="#resourses">Get Access</a>
+      <header className="header">
+        <nav className="header__nav">
+          <a className='header__nav-button' href="#about_us">About us</a>
+          <a className='header__nav-button' href="#careers">Careers</a>
+          <a className='header__nav-button' href="#resources">Resources</a>
+          <a className='header__nav-button' href="#login">Login</a>
+          <a className='header__nav-button header__nav-button--access' href="#resources">Get Access</a>
         </nav>
       </header>
+      
       <section className='thumb'>
-        <img id="img1" src="./img1.png" alt="img1" />
-        <img id="img2" src="./img2.png" alt="img2" />
-        <h1 id='where_creators'>Where creators</h1>
-        <h1 id='do_business'>do business</h1>
-        <p id="content">Passionfroot lets you handle sponsorships, collaboration requests, bookings, and payments – in one single place. Stop feeling overwhelmed by the opportunities. Start seizing them.</p>
-        <img id="img3" src="./img3.png" alt="img3" />
-        <img id="img4" src="./img4.png" alt="img4" />
-        <a id='get_access_button' href="#resourses">Get Access</a>
+        <img className="thumb__img thumb__img--large" src="./img1.png" alt="img1" />
+        <img className="thumb__img thumb__img--small" src="./img2.png" alt="img2" />
+        <h1 className='thumb__title thumb__title--where'>Where creators</h1>
+        <h1 className='thumb__title thumb__title--business'>do business</h1>
+        <p className="thumb__content">Passionfroot lets you handle sponsorships, collaboration requests, bookings, and payments – in one single place. Stop feeling overwhelmed by the opportunities. Start seizing them.</p>
+        <img className="thumb__img thumb__img--medium" src="./img3.png" alt="img3" />
+        <img className="thumb__img thumb__img--large" src="./img4.png" alt="img4" />
+        <a className='thumb__access-button' href="#resources">Get Access</a>
       </section>
-      <section className="rest">
-        <h1 id='for_all_creators'>For all creators</h1>
-        <ul>
-          <li id='podcasters'>Podcasters</li>
-          <li id='youtubers'>Youtubers</li>
-          <li id='newsletter_writers'>Newsletter Writers</li>
-          <li id='media_companies'>Media companies</li>
-          <li id='tiktokers'>TikTokers</li>
-          <li id='influencers'>Influencers</li>
+      
+      <section className="creators">
+        <h1 className='creators__title'>For all creators</h1>
+        <ul className='creators__list'>
+          <li className='creators__item'>Podcasters</li>
+          <li className='creators__item'>Youtubers</li>
+          <li className='creators__item'>Newsletter Writers</li>
+          <li className='creators__item'>Media companies</li>
+          <li className='creators__item'>TikTokers</li>
+          <li className='creators__item'>Influencers</li>
         </ul>
       </section>
+      
       <section className="panels">
-        <section className="panel" id="panel1">
-          <div id="panel1_content">
-            <h2>Is running the show running you down, too?</h2>
-            <ul>
-              <li id="panel1_list_element1">You waste 70% of time on admin work</li>
-              <li id="panel1_list_element2">Juggling 10+ tools to handle requests and payments</li>
-              <li id="panel1_list_element3">Losing track, details and your spark due to constant back and forth</li>
+        <section className="panel panel--primary">
+          <div className="panel__content">
+            <h2 className="panel__title">Is running the show running you down, too?</h2>
+            <ul className="panel__list">
+              <li className="panel__list-item">You waste 70% of time on admin work</li>
+              <li className="panel__list-item">Juggling 10+ tools to handle requests and payments</li>
+              <li className="panel__list-item">Losing track, details and your spark due to constant back and forth</li>
             </ul>
-            <img id='panel_img' alt='panel1_img' src='panel1_img.png'></img>
+            <img className='panel__img' alt='panel_img' src='panel1_img.png' />
           </div>
         </section>
-        <section className="panel" id="panel2">
-          <div id="panel2_content">
-            <h2>Get over the overwhelm</h2>
-            <ul>
-              <li id="panel2_list_element1">Free up your time (and mind) to create more</li>
-              <li id="panel2_list_element2">Handle all partnerships in one place</li>
-              <li id="panel2_list_element3">Streamline your workflows to save time</li>
-              <img id='panel_img' alt='panel1_img' src='panel1_img.png'></img>
+        
+        <section className="panel panel--secondary">
+          <div className="panel__content">
+            <h2 className="panel__title">Get over the overwhelm</h2>
+            <ul className="panel__list">
+              <li className="panel__list-item">Free up your time (and mind) to create more</li>
+              <li className="panel__list-item">Handle all partnerships in one place</li>
+              <li className="panel__list-item">Streamline your workflows to save time</li>
             </ul>
+            <img className='panel__img' alt='panel_img' src='panel1_img.png' />
           </div>
         </section>
       </section>
-      <section id="hamburger">
-      <div id="hamburger_content">
-        <h1 id='ur_talent'>You’ve got the talent.</h1>
-        <h1 id='we_tools'>We’ve got the tools</h1>
-        <div id='buttons'>
-          <a href="" id="button1">Storefront</a>
-          <a href="" id="button2">Plan Better</a>
-          <a href="" id="button3">Collaborate</a>
-          <a href="" id="button4">Get Paid</a>
+      
+      <section className="hamburger">
+        <div className="hamburger__content">
+          <h1 className='hamburger__title hamburger__title--talent'>You’ve got the talent.</h1>
+          <h1 className='hamburger__title hamburger__title--tools'>We’ve got the tools</h1>
+          <div className='hamburger__buttons'>
+            <a href="#" className="hamburger__button">Storefront</a>
+            <a href="#" className="hamburger__button">Plan Better</a>
+            <a href="#" className="hamburger__button">Collaborate</a>
+            <a href="#" className="hamburger__button">Get Paid</a>
+          </div>
         </div>
-      </div>
+      </section>
+      
+      <section className='two-panels'>
+        <div className="two-panels__panel two-panels__panel--left">
+          <div className="two-panels__content">
+            <h1 className="two-panels__title">A space for all your requests</h1>
+          </div>
+          <img src="app_screenshot.png" alt="screenshot1" className="two-panels__img" />
+        </div>
+        <div className="two-panels__panel two-panels__panel--right"></div>
+        <div className="two-panels__panel two-panels__panel--extra"></div>
       </section>
     </div>
   );

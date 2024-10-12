@@ -1,3 +1,4 @@
+/* Общие стили */
 * {
   margin: 0px;
   padding: 0px;
@@ -9,459 +10,328 @@ a {
   color: #222222;
 }
 
-.main__header {
-    
+/* Стили для хедера */
+.header {
   position: absolute;
   width: 1280px;
   height: 76px;
   left: 0px;
   top: 0px;
-
   background: #F5F3EA;
   border-radius: 0px;
-
 }
 
-#about_us_button {
-
+.header__nav-button {
   position: absolute;
-  width: 67px;
   height: 24px;
-  left: 691px;
   top: 25px;
-
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.40px;
   line-height: 24px;
-
   color: #222222;
 }
 
-#careers_button {
-  
-  position: absolute;
+.header__nav-button:nth-child(1) {
+  width: 67px;
+  left: 691px;
+}
+
+.header__nav-button:nth-child(2) {
   width: 59px;
-  height: 24px;
   left: 793px;
-  top: 25px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  
-  color: #222222;
-
-
 }
 
-#resourses_button {
-  
-  position: absolute;
+.header__nav-button:nth-child(3) {
   width: 78px;
-  height: 24px;
   left: 886px;
-  top: 26px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  
-  color: #222222;
-
-
 }
 
-#login_button {
-  
-  position: absolute;
+.header__nav-button:nth-child(4) {
   width: 41px;
-  height: 24px;
   left: 1021px;
-  top: 25px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  
-  color: #222222;
-
-
 }
 
-#get_access_button {
-  
-  position: absolute;
-  width: 88px;
-  height: 24px;
-  left: 1124px;
-  top: 25px;
-  padding: 0.5%;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-    text-align: center;
-  
-  color: #000000;
-
-
-  
-  box-sizing: border-box;
-
+.header__nav-button--access {
   position: absolute;
   width: 144px;
   height: 44px;
   left: 1096px;
   top: 16px;
-
-  background: #F5F3EA;
-  border: 2px solid #000000;
-  box-shadow: 2px 2px 0px #1B1C1D;
-  border-radius: 6px;
-
-
-}
-#img1 {
-  position: absolute;
-  width: 270px;
-  height: 180px;
-  left: 50px;
-  top: 116px;
-  object-fit: cover;   border-radius: 0px;
-}
-
-#img2 {
-  position: absolute;
-  width: 152px;
-  height: 93px;
-  left: 906px;
-  top: 164px;
-  object-fit: cover;   border-radius: 0px;
-
-}
-
-#img3 {
-  position: absolute;
-  width: 208px;
-  height: 145px;
-  left: 93px;
-  top: 411px;
-
-  border-radius: 0px;
-
-}
-#img4 {
-  position: absolute;
-  width: 206px;
-  height: 191px;
-  left: 991px;
-  top: 517px;
-  object-fit: cover;   border-radius: 0px;
-
-
-}
-
-#where_creators {
-
-  position: absolute;
-  width: 691px;
-  height: 101px;
-  left: 294px;
-  top: 308px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 101px;
-    text-align: center;
-  letter-spacing: 1.14px;
-
-  color: #1B1C1D;
-
-}
-#do_business{
-
-  position: absolute;
-  width: 529px;
-  height: 101px;
-  left: 375px;
-  top: 408px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 101px;
-  text-align: center;
-  letter-spacing: 1.14px;
-
-  color: #1B1C1D;
-}
-
-.thumb #content {
-
-  position: absolute;
-  width: 608px;
-  height: 93px;
-  left: 336px;
-  top: 542px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 31px;
-  text-align: center;
-
-  color: #1B1C1D;
-
-
-}
-
-.thumb #get_access_button {
-  
-  position: absolute;
-  width: 88px;
-  height: 24px;
-  left: 597px;
-  top: 667px;
   padding: 0.5%;
-
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-
-  color: #1B1C1D;
-
-  
+  color: #000000;
   box-sizing: border-box;
+  background: #F5F3EA;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #1B1C1D;
+  border-radius: 6px;
+}
 
+/* Стили для секции thumb */
+.thumb__img.thumb__img--large {
+  position: absolute;
+  width: 270px;
+  height: 180px;
+  left: 50px;
+  top: 116px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.thumb__img.thumb__img--small {
+  position: absolute;
+  width: 152px;
+  height: 93px;
+  left: 906px;
+  top: 164px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.thumb__img.thumb__img--medium {
+  position: absolute;
+  width: 208px;
+  height: 145px;
+  left: 93px;
+  top: 411px;
+  border-radius: 0px;
+}
+
+.thumb__img.thumb__img--large:last-of-type {
+  position: absolute;
+  width: 206px;
+  height: 191px;
+  left: 991px;
+  top: 517px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.thumb__title.thumb__title--where {
+  position: absolute;
+  width: 691px;
+  height: 101px;
+  left: 294px;
+  top: 308px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  text-align: center;
+  letter-spacing: 1.14px;
+  color: #1B1C1D;
+}
+
+.thumb__title.thumb__title--business {
+  position: absolute;
+  width: 529px;
+  height: 101px;
+  left: 375px;
+  top: 408px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 101px;
+  text-align: center;
+  letter-spacing: 1.14px;
+  color: #1B1C1D;
+}
+
+.thumb__content {
+  position: absolute;
+  width: 608px;
+  height: 93px;
+  left: 336px;
+  top: 542px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  color: #1B1C1D;
+}
+
+.thumb__access-button {
   position: absolute;
   width: 143px;
   height: 40px;
   left: 569px;
   top: 659px;
-
+  padding: 0.5%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1B1C1D;
+  box-sizing: border-box;
   background: #FF9966;
   border: 2px solid #1B1C1D;
   box-shadow: 2px 2px 0px #1B1C1D;
   border-radius: 6px;
 }
 
-.rest #for_all_creators {
-
+/* Стили для секции creators */
+.creators__title {
   position: absolute;
   width: 370px;
   height: 202px;
   left: 155px;
   top: 973px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
   line-height: 101px;
   text-align: center;
   letter-spacing: 0.96px;
-
   color: #1B1C1D;
-
-
 }
-.rest #podcasters {
 
+.creators__item {
   position: absolute;
+  height: 65px;
+  left: 672px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #1B1C1D;
+}
+
+.creators__item:nth-child(1) {
   width: 293px;
-  height: 65px;
-  left: 672px;
   top: 884px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  
-  color: #1B1C1D;
-
 }
 
-.rest #youtubers {
-
-  position: absolute;
+.creators__item:nth-child(2) {
   width: 274px;
-  height: 65px;
-  left: 672px;
   top: 980px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  
-  color: #1B1C1D;
-
 }
 
-.rest #newsletter_writers {
-
-  position: absolute;
+.creators__item:nth-child(3) {
   width: 503px;
-  height: 65px;
-  left: 672px;
   top: 1076px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  
-  color: #1B1C1D;
-
 }
 
-.rest #media_companies {
-
-  position: absolute;
+.creators__item:nth-child(4) {
   width: 466px;
-  height: 65px;
-  left: 672px;
   top: 1172px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  
-  color: #1B1C1D;
-
 }
 
-.rest #tiktokers {
-
-  position: absolute;
+.creators__item:nth-child(5) {
   width: 266px;
-  height: 65px;
-  left: 672px;
   top: 1268px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  
-  color: #1B1C1D;
-
 }
 
-.rest #influencers {
-
-  position: absolute;
+.creators__item:nth-child(6) {
   width: 304px;
-  height: 65px;
-  left: 672px;
   top: 1364px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  
-  color: #1B1C1D;
-
 }
 
-#panel1 {
-
+/* Стили для панелей */
+.panel--primary {
   position: absolute;
   width: 1280px;
   height: 800px;
   left: 0px;
   top: 1522px;
-
   background: #F5F3EA;
   border-radius: 0px;
-
 }
 
-#panel1 h2 {
+.panel--primary .panel__title {
   margin-top: 248px;
   margin-left: 40px;
   margin-bottom: 29px;
   width: 527px;
   height: 92px;
-  
-
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 46px;
   letter-spacing: 0.6px;
-
   color: #1B1C1D;
-
 }
 
-#panel1 li {
-  list-style: none; /* Убираем стандартные маркеры */
-  background: url('list1-element.png') no-repeat left center; /* Задаём картинку */
+.panel--primary .panel__list-item {
+  list-style: none;
+  background: url('list1-element.png') no-repeat left center;
   background-size: 24px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 31px;
-
   margin-left: 40px;
   padding-left: calc(35px);
-}
-
-
-
-#panel1_list_element1 {
-  width: 359px;
-  height: 31px;
+  color: #1B1C1D;
   margin-bottom: 19px;
-
-  color: #1B1C1D;
 }
 
-#panel1_list_element2 {
-  width: 392px;
-  height: 62px;
-  margin-bottom: 13px;
-  color: #1B1C1D;
+.panel--primary .panel__list-item:last-child {
+  margin-bottom: 0;
 }
 
-#panel1_list_element3 {
-  width: 403px;
-  height: 62px;
-  color: #1B1C1D;
-}
-
-#panel1 #panel_img {
+.panel--primary .panel__img {
   position: absolute;
   width: 600px;
   height: 600px;
   right: 34px;
   bottom: 65px;
 }
-#panel2 #panel_img {
+
+.panel--secondary {
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  left: 0px;
+  top: 2324px;
+  background: #F5F3EA;
+  border-radius: 0px;
+}
+
+.panel--secondary .panel__title {
+  margin-top: 299px;
+  margin-left: 40px;
+  margin-bottom: -15px;
+  width: 527px;
+  height: 92px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
+}
+
+.panel--secondary .panel__list-item {
+  list-style: none;
+  background: url('list2-element.png') no-repeat left center;
+  background-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin-left: 40px;
+  padding-left: calc(35px);
+  color: #1B1C1D;
+  margin-bottom: 16px;
+}
+
+.panel--secondary .panel__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.panel--secondary .panel__img {
   position: absolute;
   width: 600px;
   height: 600px;
@@ -469,234 +339,139 @@ a {
   bottom: 104px;
 }
 
-#panel2 {
-  /* Rectangle */
-
-  position: absolute;
-  width: 1280px;
-  height: 800px;
-  left: 0px;
-  top: 2324px;
-
-  background: #F5F3EA;
-  border-radius: 0px;
-
-  
-}
-
-#panel2 h2 {
-  width: 441px;
-  height: 46px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 46px;
-  /* identical to box height, or 115% */
-  letter-spacing: 0.6px;
-
-  color: #1B1C1D;
-
-
-  margin-top: 299px;
-  margin-left: 40px;
-  margin-bottom: -15px;
-  width: 527px;
-  height: 92px;
-  
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 46px;
-  letter-spacing: 0.6px;
-
-  color: #1B1C1D;
-
-}
-
-#panel2 li {
-  list-style: none; /* Убираем стандартные маркеры */
-  background: url('list2-element.png') no-repeat left center; /* Задаём картинку */
-  background-size: 24px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 31px;
-
-  margin-left: 40px;
-  margin-bottom: 16px;
-
-  padding-left: calc(35px);
-}
-
-#hamburger {
+/* Стили для секции hamburger */
+.hamburger {
   margin-top: 10px;
 }
 
-#ur_talent {
-  /* You’ve got the talent. */
-
+.hamburger__title.hamburger__title--talent {
   position: absolute;
   width: 382px;
   height: 46px;
   left: 449px;
   top: 3134px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 39px;
   line-height: 46px;
-  /* identical to box height, or 118% */
   text-align: center;
   letter-spacing: 0.6px;
-
   color: #1B1C1D;
-
-
 }
 
-#we_tools {
-  /* We’ve got the tools */
-
+.hamburger__title.hamburger__title--tools {
   position: absolute;
   width: 346px;
   height: 46px;
   left: 467px;
   top: 3180px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 39px;
   line-height: 46px;
-  /* identical to box height, or 118% */
   text-align: center;
   letter-spacing: 0.6px;
-
   color: #1B1C1D;
-
-
 }
 
-
-#buttons a{
+.hamburger__buttons a {
   text-align: center;
   padding: 0.5%;
   padding-left: 1.5%;
   padding-right: 1.5%;
 }
 
-#button1 {
-
-  position: absolute;
-  width: 84px;
-  height: 18px;
-  left: 369px;
-  top: 3258px;
-
-  box-sizing: border-box;
-
+.hamburger__button:nth-child(1) {
   position: absolute;
   width: 140px;
   height: 38px;
   left: 341px;
   top: 3248px;
-  border: 3px solid #1B1C1D;
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  border: 2px solid #1B1C1D;
   border-radius: 4px;
-
 
 }
 
-#button2 {
-
-  /* Plan Better */
-
-  position: absolute;
-  width: 90px;
-  height: 18px;
-  left: 521px;
-  top: 3258px;
-
-  /* Rectangle */
-
-  box-sizing: border-box;
-
+.hamburger__button:nth-child(2) {
   position: absolute;
   width: 146px;
   height: 38px;
   left: 493px;
   top: 3248px;
-
-  border: 3px solid #1B1C1D;
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  border: 2px solid #1B1C1D;
   border-radius: 4px;
-
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
   color: #1B1C1D;
 }
 
-#button3 {
-  /* Rectangle */
-
-
+.hamburger__button:nth-child(3) {
   position: absolute;
   width: 151px;
   height: 38px;
   left: 650px;
   top: 3248px;
-
-  border: 3px solid #1B1C1D;
+  box-sizing: border-box;
+  border: 2px solid #1B1C1D;
   border-radius: 4px;
-
-
-  /* Collaborate */
-
-  position: absolute;
-  width: 95px;
-  height: 18px;
-
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  /* identical to box height, or 112% */
   letter-spacing: 0.5px;
-
   color: #1B1C1D;
-
-
 }
 
-#button4 {
-  /* Rectangle */
-
-
+.hamburger__button:nth-child(4) {
   position: absolute;
   width: 127px;
   height: 38px;
   left: 813px;
   top: 3248px;
-
-  border: 3px solid #1B1C1D;
+  box-sizing: border-box;
+  border: 2px solid #1B1C1D;
   border-radius: 4px;
-
-
-  /* Get Paid */
-
-  position: absolute;
-  width: 71px;
-  height: 18px;
-
-
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  /* identical to box height, or 106% */
   letter-spacing: 0.5px;
-
   color: #1B1C1D;
+}
 
+/* Стили для секции two-panels */
+.two-panels__panel--left {
+  position: absolute;
+  width: 1200px;
+  height: 736px;
+  left: 40px;
+  top: 3332px;
+  background: #A8EBFF;
+  border-radius: 16px 16px 0px 0px;
+}
 
+.two-panels__content {
+  position: absolute;
+  width: 518px;
+  height: 46px;
+  left: 104px;
+  top: 3589px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  color: #1B1C1D;
 }
