@@ -91,7 +91,13 @@ function App() {
             </div>
           <img id='two-panels__app_screenshot2' src="app_screenshot2.png" width={362} height={684} alt="screenshot1" className="two-panels__img" />
         </div>
-        <div className="two-panels__panel two-panels__panel--three"></div>
+        <div className="two-panels__panel two-panels__panel--three">
+          <div className="two-panels__content">
+              <p className="two-panels__title">Keep track, stay relaxed</p>
+              <p className="two-panels__text">Stop stressing about payments, invoices, reminders, and more. With Passionfroot you can automatically invoice the right people, at the right time.</p>
+          </div>
+          <img id='two-panels__app_screenshot2' src="app_screenshot2.png" width={362} height={684} alt="screenshot1" className="two-panels__img" />
+        </div>
       </section>
     </div>
   );

@@ -549,7 +549,6 @@ a {
 }
 .two-panels__panel--two .two-panels__text {
 
-
   width: 546px;
   height: 93px;
   left: 109px;
@@ -561,7 +560,8 @@ a {
   line-height: 31px;
   letter-spacing: 0.3px;
   color: #1B1C1D;
+}
 
-
-
+.two-panels__panel--three {
+  
 }
