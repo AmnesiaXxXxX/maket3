@@ -121,6 +121,14 @@ function App() {
         </div>
       </section>
 
+      <section className='about-content'>
+        <p className='about-content__title'>Content that gets your creative juices going</p> 
+        <a href="#1" className="button1">Newsletter</a>
+        <a href="#2" className="button2">Podcasts</a>
+        <a href="#3" className="button3">Blog</a>
+        <a href="#4" className="button4">Guides</a>
+      </section>
+
     </div>
   );
 }

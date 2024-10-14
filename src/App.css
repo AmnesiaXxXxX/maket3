@@ -756,7 +756,8 @@ a {
   position: absolute;
   width: 162px;
   height: 171px;
-  
+  left: 704px;
+  top: 27px;
 
 
 }
@@ -765,10 +766,10 @@ a {
   /* Rectangle */
   align-items: center;
   position: absolute;
-  width: 1541px;
-  height: 220px;
+  width: 1455px;
+  height: 220.5px;
   left: -177px;
-  top: 6566px;
+  top: 6564.5px;
 
   background: #FF9966;
   border-top: #1B1C1D 2px solid;
@@ -776,3 +777,57 @@ a {
   border-radius: 0px;
 
 }
+
+
+.about-content__title {
+  /* Content that gets your creative juices going */
+
+  position: absolute;
+  width: 794px;
+  height: 46px;
+  left: 40px;
+  top: 6827px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  /* identical to box height, or 118% */
+  letter-spacing: 0.6px;
+
+  color: #1B1C1D;
+
+
+}
+
+.about-content .button1 {
+
+  
+  /* Rectangle */
+
+  box-sizing: border-box;
+  position: absolute;
+
+  width: 109px;
+  height: 20px;
+  left: 40px;
+  top: 6914px;
+
+  background: #FFFFFF;
+  border: 2px solid rgba(27, 28, 29, 0.2);
+  border-radius: 8px;
+
+}
+
+.about-content .button2 {
+
+}
+
+.about-content .button3 {
+
+}
+
+.about-content .button4 {
+
+}
+
