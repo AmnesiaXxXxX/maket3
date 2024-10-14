@@ -780,7 +780,6 @@ a {
 
 
 .about-content__title {
-  /* Content that gets your creative juices going */
 
   position: absolute;
   width: 794px;
@@ -802,12 +801,10 @@ a {
 
 .about-content .button1 {
 
-  
-  /* Rectangle */
-
   box-sizing: border-box;
   position: absolute;
-
+  padding-left: 16px;
+  padding-right: 18px;
   width: 109px;
   height: 20px;
   left: 40px;
@@ -816,18 +813,67 @@ a {
   background: #FFFFFF;
   border: 2px solid rgba(27, 28, 29, 0.2);
   border-radius: 8px;
-
+  
 }
 
 .about-content .button2 {
-
+  position: absolute;
+  padding-left: 16px;
+  padding-right: 16px;
+  left: 160px;
+  top: 6914px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  box-sizing: border-box;
+  width: 98px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 2px solid rgba(27, 28, 29, 0.2);
+  border-radius: 8px;
+  
 }
 
 .about-content .button3 {
+    /* Blog */
+
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  left: 270px;
+  top: 6914px;
+  padding-left: 16px;
+  padding-right: 44px;
+
+  font-size: 14px;
+  
+  color: #222222;
+  /* Rectangle */
+
+  box-sizing: border-box;
+
+  height: 20px;
+
+
+  border: 2px solid rgba(27, 28, 29, 0.2);
+  border-radius: 8px;
+
 
 }
 
 .about-content .button4 {
-
+  position: absolute;
+  width: 48px;
+  height: 20px;
+  left: 346px;
+  top: 6914px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 16px;
+  padding-right: 63px;
+  color: #222222;
+  box-sizing: border-box;
+  border: 2px solid rgba(27, 28, 29, 0.2);
+  border-radius: 8px;
 }
 
