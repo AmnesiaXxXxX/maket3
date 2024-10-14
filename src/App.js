@@ -101,7 +101,26 @@ function App() {
               <img className='image4' src="img1-4.png" alt=''></img>
           </div>
         </div>
+
       </section>
+      <section className='poweredByPassion'>
+        <p className='poweredByPassion__header'>Powered by passion, built for people like you</p>
+        <p className='poweredByPassion__underheader'>Join the community of leading creatives and get more out of your business.</p>
+        <p className='poweredByPassion__ali_comment'>“Me and hundreds of creators I know can benefit from Passionfroot’s personal storefront for products and sponsorships.”</p>
+        <div className='poweredByPassion__ali_info'>
+          <p className='name'>Ali Abdaal</p>
+          <p className='about'>Youtuber, Podcaster and Writer, Founder of Part-Time YouTuber Academy</p>
+          <p className='as'>View storefront</p>
+        </div>
+        <img id="ali_photo" src='ali_photo.png' alt="ali_photo"></img>
+      </section>
+      <section className='line'>
+        <div id='separator'>
+        <img id='logo1' src="logo1.png" alt='logo1'></img>
+
+        </div>
+      </section>
+
     </div>
   );
 }
