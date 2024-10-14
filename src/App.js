@@ -128,7 +128,14 @@ function App() {
         <a href="#3" className="button3">Blog</a>
         <a href="#4" className="button4">Guides</a>
       </section>
+      <section className='newsletter'>
+        <div className="form1">
+          <p className='metainfo'>September 16, 2022 • 3 min read</p>
+        </div>
+        <div className="form2"></div>
+        <div className="form3"></div>
 
+      </section>
     </div>
   );
 }

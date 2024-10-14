@@ -531,29 +531,22 @@ a {
 }
 
 .two-panels__panel--two .two-panels__title {
-
   width: 557px;
   height: 92px;
   margin-top: 300px;
   margin-bottom: 15px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 46px;
   letter-spacing: 0.6px;
-
   color: #1B1C1D;
-
-
 }
 .two-panels__panel--two .two-panels__text {
-
   width: 546px;
   height: 93px;
   left: 109px;
   top: 4583px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -563,17 +556,13 @@ a {
 }
 
 .two-panels__panel--three {
-  /* Rectangle */
-
   position: absolute;
   width: 1200px;
   height: 736px;
   left: 40px;
   top: 5045px;
-
   background: #66CCA0;
   border-radius: 0px 0px 16px 16px;
-
 }
 
 .two-panels__panel--three .two-panels__title {
@@ -582,34 +571,26 @@ a {
   height: 46px;
   top: 23px;
   left: -1px;
-
   line-height: 46px;
   letter-spacing: 0.6px;
-
   color: #1B1C1D;
 }
 
 .two-panels__panel--three .two-panels__text {
-
   width: 533px;
   height: 93px;
   margin-top: 40px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 31px;
-
   color: #1B1C1D;
-
-
 }
 
 .image1 {
   width: 192px;
   height: 194px;
   border-radius: 0px;
-
   position: relative;
   left: 774px;
   bottom: 123px;
@@ -630,7 +611,6 @@ a {
   position: relative;
   left: 446px;
   bottom: 376px;
-
 }
 .image4 {
   width: 160px;
@@ -639,77 +619,55 @@ a {
   position: relative;
   left: 603px;
   bottom: 451px;
-
 }
 
 .poweredByPassion__header {
-  /* Powered by passion, built for people like you */
-
   position: absolute;
   width: 813px;
   height: 46px;
   left: 188px;
   top: 5886px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  /* identical to box height, or 115% */
-
-
   color: #1B1C1D;
-
-
 }
 
 .poweredByPassion__underheader {
-
   position: absolute;
   width: 690px;
   height: 31px;
   left: 249px;
   top: 5948px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 31px;
   letter-spacing: 0.45px;
   text-align: center;
-
   color: #1B1C1D;
 }
 
 #ali_photo {
-  /* IMAGE */
-
   position: absolute;
   width: 400px;
   height: 436px;
   left: 677px;
   top: 6027px;
-
   border-radius: 0px;
-
 }
 
 .poweredByPassion__ali_comment {
-
   position: absolute;
   width: 621px;
   height: 125px;
   left: 59px;
   top: 6130px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 42px;
-  /* or 130% */
-
   color: #1B1C1D;
-
-
 }
 
 .poweredByPassion__ali_info{
@@ -752,55 +710,43 @@ a {
 }
 
 #logo1 {
-
   position: absolute;
   width: 162px;
   height: 171px;
   left: 704px;
   top: 27px;
-
-
 }
 
 #separator {
-  /* Rectangle */
   align-items: center;
   position: absolute;
   width: 1455px;
   height: 220.5px;
   left: -177px;
   top: 6564.5px;
-
   background: #FF9966;
   border-top: #1B1C1D 2px solid;
   border-bottom: #1B1C1D 2px solid;
   border-radius: 0px;
-
 }
 
 
 .about-content__title {
-
   position: absolute;
   width: 794px;
   height: 46px;
   left: 40px;
   top: 6827px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 39px;
   line-height: 46px;
   /* identical to box height, or 118% */
   letter-spacing: 0.6px;
-
   color: #1B1C1D;
-
-
 }
 
 .about-content .button1 {
-
   box-sizing: border-box;
   position: absolute;
   padding-left: 16px;
@@ -809,7 +755,6 @@ a {
   height: 20px;
   left: 40px;
   top: 6914px;
-
   background: #FFFFFF;
   border: 2px solid rgba(27, 28, 29, 0.2);
   border-radius: 8px;
@@ -835,8 +780,6 @@ a {
 }
 
 .about-content .button3 {
-    /* Blog */
-
   position: absolute;
   width: 29px;
   height: 20px;
@@ -844,21 +787,12 @@ a {
   top: 6914px;
   padding-left: 16px;
   padding-right: 44px;
-
   font-size: 14px;
-  
   color: #222222;
-  /* Rectangle */
-
   box-sizing: border-box;
-
   height: 20px;
-
-
   border: 2px solid rgba(27, 28, 29, 0.2);
   border-radius: 8px;
-
-
 }
 
 .about-content .button4 {
@@ -875,5 +809,17 @@ a {
   box-sizing: border-box;
   border: 2px solid rgba(27, 28, 29, 0.2);
   border-radius: 8px;
+}
+
+.form1 {
+
+}
+
+.form1 .metainfo{
+
+}
+
+.form1 {
+
 }
 
