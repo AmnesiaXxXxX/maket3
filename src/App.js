@@ -67,10 +67,10 @@ function App() {
           <h1 className='hamburger__title hamburger__title--talent'>You’ve got the talent.</h1>
           <h1 className='hamburger__title hamburger__title--tools'>We’ve got the tools</h1>
           <div className='hamburger__buttons'>
-            <a href="#" className="hamburger__button">Storefront</a>
-            <a href="#" className="hamburger__button">Plan Better</a>
-            <a href="#" className="hamburger__button">Collaborate</a>
-            <a href="#" className="hamburger__button">Get Paid</a>
+            <a href="#1" className="hamburger__button">Storefront</a>
+            <a href="#2" className="hamburger__button">Plan Better</a>
+            <a href="#3" className="hamburger__button">Collaborate</a>
+            <a href="#4" className="hamburger__button">Get Paid</a>
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@ function App() {
           <div className="two-panels__content">
             <p className="two-panels__title">A space for all your requests</p>
             <p className="two-panels__text">Drowning in DMs and emails? Ditch the mediakit and direct brands to one place with up-to-date stats. Offer sponsorships, collabs, ads, and more.</p>
-            <a className="two-panels__button">Check out our storefront</a>
+            <a href="#4" className="two-panels__button">Check out our storefront</a>
           </div>
           <img id='two-panels__app_screenshot' src="app_screenshot1.png" width={362} height={684} alt="screenshot1" className="two-panels__img" />
         </div>
@@ -95,8 +95,11 @@ function App() {
           <div className="two-panels__content">
               <p className="two-panels__title">Keep track, stay relaxed</p>
               <p className="two-panels__text">Stop stressing about payments, invoices, reminders, and more. With Passionfroot you can automatically invoice the right people, at the right time.</p>
+              <img className='image1' src="img1-1.png" alt=''></img>
+              <img className='image2' src="img1-2.png" alt=''></img>
+              <img className='image3' src="img1-3.png" alt=''></img>
+              <img className='image4' src="img1-4.png" alt=''></img>
           </div>
-          <img id='two-panels__app_screenshot2' src="app_screenshot2.png" width={362} height={684} alt="screenshot1" className="two-panels__img" />
         </div>
       </section>
     </div>

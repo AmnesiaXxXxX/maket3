@@ -563,5 +563,81 @@ a {
 }
 
 .two-panels__panel--three {
-  
+  /* Rectangle */
+
+  position: absolute;
+  width: 1200px;
+  height: 736px;
+  left: 40px;
+  top: 5045px;
+
+  background: #66CCA0;
+  border-radius: 0px 0px 16px 16px;
+
+}
+
+.two-panels__panel--three .two-panels__title {
+  position: relative;
+  width: 436px;
+  height: 46px;
+  top: 23px;
+  left: -1px;
+
+  line-height: 46px;
+  letter-spacing: 0.6px;
+
+  color: #1B1C1D;
+}
+
+.two-panels__panel--three .two-panels__text {
+
+  width: 533px;
+  height: 93px;
+  margin-top: 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+
+  color: #1B1C1D;
+
+
+}
+
+.image1 {
+  width: 192px;
+  height: 194px;
+  border-radius: 0px;
+
+  position: relative;
+  left: 774px;
+  bottom: 123px;
+}
+
+.image2 {
+  width: 144px;
+  height: 89px;
+  border-radius: 0px;
+  position: relative;
+  left: 752px;
+  bottom: 342px;
+}
+.image3 {
+  width: 144px;
+  height: 89px;
+  border-radius: 0px;
+  position: relative;
+  left: 446px;
+  bottom: 376px;
+
+}
+.image4 {
+  width: 160px;
+  height: 155px;
+  border-radius: 0px;
+  position: relative;
+  left: 603px;
+  bottom: 451px;
+
 }
