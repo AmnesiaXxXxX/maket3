@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
@@ -130,13 +131,44 @@ function App() {
       </section>
       <section className='newsletter'>
         <div className="form1">
-          <p className='metainfo'>September 16, 2022 • 3 min read</p>
+          <p className='form_metainfo'>September 16, 2022 • 3 min read</p>
+          <p className='form_header'>You're in the wrong lane</p>
+          <div class="separator"></div>
+          <line></line>
         </div>
-        <div className="form2"></div>
-        <div className="form3"></div>
+        <div className="form2">
+          <p className='form_metainfo'>June 3, 2022 • 3 min read</p>
+          <p className='form_header'>The power of a weekly review</p>
+          <div class="separator"></div>
 
+
+
+        </div>
+        <div className="form3">
+          <p className='form_metainfo'>May 13, 2022 • 8 min read</p>
+          <p className='form_header'>How to ask better questions</p>
+          <div class="separator"></div>
+        </div>
       </section>
+      <section className='faq'>
+        <p className='faq__header'>Frequently Asked Questions</p>
+        <div className='faq__content'>
+          <a className='faq__question1'>What is Passionfroot?</a>
+          <div class="separator"></div>
+          <a className='faq__question2'>Is Passionfroot for me?</a>
+          <div class="separator"></div>
+          <a className='faq__question3'>How do I get access?</a>
+          <div class="separator"></div>
+          <a className='faq__question4'>How much does it cost?</a>
+          
+        </div>
+      </section>
+      <footer>
+        <p>Reap the froots of your creativity, without the chaos</p>
+        <a href="#" className="thumb__access-button">Get access</a>
+      </footer>
     </div>
+  
   );
 }
 
